@@ -1,4 +1,4 @@
-## Sportyy Up
+## Sporty Up
 
 <!--
 
