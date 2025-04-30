@@ -10,7 +10,7 @@
 | <img width="150" src="https://avatars.githubusercontent.com/u/113279387?v=4"/> | <img width="150" src="https://avatars.githubusercontent.com/u/172005208?v=4"/> | <img width="150" src="https://avatars.githubusercontent.com/u/147162427?v=4"/> | <img width="150" src="https://avatars.githubusercontent.com/u/90452546?v=4"/> |
 <br>
 
-## Summary
+## 📄 *****Description*****
 **Sporty-UP** is a mobile-based system for real-time posture assessment and feedback, developed using Qualcomm AI Hub. It utilizes on-device AI to provide instant posture corrections during physical activities, and integrates server-based analysis for high-precision results. The system also features a community platform where users can share experiences and feedback. This hybrid approach ensures efficient performance on mobile devices, offering a convenient, real-time solution for improving posture and supporting indoor sports activities.
 
 
