@@ -67,6 +67,7 @@ Sporty-up 애플리케이션은 다음과 같은 핵심 기능을 포함한다.
 <br>
 <img width="360" src="https://github.com/user-attachments/assets/1ac2276e-9a0d-4415-b8a5-2cc8d5521125"/> 
 <br>
+더 자세한 자세 분석 알고리즘은 (https://github.com/HSU-capston/Back-flask) 에서 확인하실 수 있습니다.
 
 ## ⚙️ *****Optimization for Mobile Devices*****
 <br>
