@@ -84,6 +84,8 @@ Sporty-up 애플리케이션은 다음과 같은 핵심 기능을 포함한다.
 <br/><br/>
 
 ## ⚙️ *****Score Algorithm*****
+![image](https://github.com/user-attachments/assets/fc2e5a1a-28d7-40a4-badb-73125a169059)
+
 모바일 디바이스에서 YOLOv11 Object Detection 모델은 사용자의 투구 시점을 자동 판별하여 촬영 타이밍을 제어하며 서버로 투구 영상을 보내고 서버에서 YOLOv11 Pose Estimation 모델은 프레임별 17개 관절 좌표를 추출한다. 추출된 데이터를 기반으로 어깨 평균 각도 편차, 상체 평균 이동 거리, 손목 누적 이동 거리, 발목 위치 변화 횟수, 사용자 정보를 통해 습득한 사용자의 숙련도등의 지표를 계산하고, 이를 다음과 같은 점수 함수로 종합하여 하나의 스코어로 환산한다.
 <br>
 <img width="360" src="https://github.com/user-attachments/assets/b76cab43-41bb-422c-bd2f-21def77e155e"/> 
