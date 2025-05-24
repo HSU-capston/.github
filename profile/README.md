@@ -51,6 +51,14 @@ Sporty-up 애플리케이션은 다음과 같은 핵심 기능을 포함한다.
 ## 📱 *****Expected screen*****
 ![2](https://github.com/user-attachments/assets/98656c9d-0256-4eee-ba3d-109b27bcaa36)
 
+주요 개발 기술:
+- 모바일 앱 내 데이터 시각화 기능 구현 ( 차트/점수/진행도 시각화 등 )
+- 사용자 인증 및 권한 제어 ( 로그인/회원가입 API에 JWT 적용, 사용자 정보 식별 및 접근 제어 )
+- 사용자 정보 기반 영상 추천 및 사용자 레벨 기반 피드백 등 개인화된 시스템 구현
+- Spring Boot와 Flask 간 비동기 API 통신 구조 설계
+- YOLO 기반 자세 추정 모델과 LLM 모델을 활용한 실시간 자세 분석 및 피드백 알고리즘 구현
+- Qualcomm AI Hub를 통한 온디바이스 모델 경량화 및 타겟 디바이스 최적화 ( W8A8 양자화 )
+
 ## ⚙️ *****Score Algorithm*****
 <br>
 모바일 디바이스에서 YOLOv11 Object Detection 모델은 사용자의 투구 시점을 자동 판별하여 촬영 타이밍을 제어하며 서버로 투구 영상을 보내고 서버에서 YOLOv11 Pose Estimation 모델은 프레임별 17개 관절 좌표를 추출한다. 추출된 데이터를 기반으로 어깨 평균 각도 편차, 상체 평균 이동 거리, 손목 누적 이동 거리, 발목 위치 변화 횟수, 사용자 정보를 통해 습득한 사용자의 숙련도등의 지표를 계산하고, 이를 다음과 같은 점수 함수로 종합하여 하나의 스코어로 환산한다.
@@ -74,8 +82,14 @@ Sporty-up 애플리케이션은 다음과 같은 핵심 기능을 포함한다.
 자연어 기반 피드백 시스템은 사용자가 복잡한 용어나 전문 지식 없이도 쉽게 이해할 수 있는 방식으로 자세 교정 정보를 제공함으로써, 보다 친숙하고 접근성 높은 운동 가이드를 구현한다. 분석 결과는 점수 및 차트 형태로 시각화되어 사용자가 자신의 자세 변화 추이를 한눈에 확인할 수 있어, 자기주도적인 운동 관리와 동기 부여에 기여한다. 나아가 본 시스템은 다양한 스포츠 종목으로의 확장이 가능하도록 설계되어, 향후 더 많은 분야에서 활용 가능성을 지니며 실질적인 운동 효과 향상에 이바지할 것으로 기대된다.
 
 ## *****Detailed analysis screen*****
+![image](https://github.com/user-attachments/assets/cab0cd99-0f7e-46c5-a137-65423d168285)
 
-![image](https://github.com/user-attachments/assets/940c2bd5-99fc-46ad-87b5-ebe644ebb56e)
+## *****Main Tech Stack & Development Environment*****
+
+- 개발 환경: Android, Windows, Ubuntu (GPU EC2)
+- 주요 라이브러리: TensorFlow Lite, OpenCV
+- 프레임워크: Spring Boot, Flask, TensorFlow, Qualcomm AI Hub
+- 개발 도구: Amazon EC2, Amazon RDS, Amazon S3, Android Studio, VSCode, Swagger
 
 
 ## *****Additional*****
