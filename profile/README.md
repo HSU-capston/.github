@@ -164,7 +164,7 @@ Sporty-up 애플리케이션은 다음과 같은 핵심 기능을 포함한다.
     <td align="center"><b>회원가입3</b></td>
     <td align="center"><b>온보딩+설문조사</b></td>
     <td align="center"><b>홈 (메인)</b></td>
-    <td align="center"><b>카메라 (메인)</b></td>
+    <td align="center"><b>카메라 (수동촬영)</b></td>
   </tr>
 </table>
 <table>
@@ -183,17 +183,18 @@ Sporty-up 애플리케이션은 다음과 같은 핵심 기능을 포함한다.
 </table>
 <table>
   <tr>
+     <td width="25%"><img src="" width="100%" /></td>
     <td width="25%"><img src="" width="100%" /></td>
-    <td width="25%"><img src="" width="100%" /></td>
+    <td width="25%"><img src="https://github.com/user-attachments/assets/ba15ae9d-55cc-4730-a373-f00224029d14" width="100%" /></td>
     <td width="25%"><img src="" width="100%" /></td>
   </tr>
   <tr>
+    <td align="center"><b>카메라(자동촬영)</b></td>
     <td align="center"><b>카메라 피드백</b></td>
     <td align="center"><b>가이드라인</b></td>
     <td align="center"><b>세부분석(하이라이트)</b></td>
   </tr>
 </table>
-
 
 
 
