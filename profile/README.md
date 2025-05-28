@@ -184,7 +184,7 @@ Sporty-up 애플리케이션은 다음과 같은 핵심 기능을 포함한다.
 <table>
   <tr>
      <td width="25%"><img src="https://github.com/user-attachments/assets/ad8e3ff8-01c1-4385-bc5a-6f14d74e78cd" width="100%" /></td>
-    <td width="25%"><img src="" width="100%" /></td>
+    <td width="25%"><img src="https://github.com/user-attachments/assets/9ec1b9f4-eeca-4c14-a1e4-bb0fa0c2c680" width="100%" /></td>
     <td width="25%"><img src="https://github.com/user-attachments/assets/ba15ae9d-55cc-4730-a373-f00224029d14" width="100%" /></td>
     <td width="25%"><img src="https://github.com/user-attachments/assets/5adb64ab-c522-479a-904b-4c13e32264d6" width="100%" /></td>
   </tr>
