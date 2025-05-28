@@ -133,7 +133,7 @@ Sporty-up 애플리케이션은 다음과 같은 핵심 기능을 포함한다.
 | 항목 | 링크 |
 |:---:|:---:|
 | 📑 Qualcomm University Relations Platforms Symposium 2025 | [Qualcomm_symposium_2025_Sport-up.pdf](https://github.com/user-attachments/files/20391725/Qualcomm_symposium_2025_Sport-up.pdf)|
-| 📽️ Sporty-up 어플리케이션 시연 영상 |  |
+| 📽️ Sporty-up 어플리케이션 시연 영상 | https://youtu.be/d-IZN6-IJSI | 
 | 📑 Sporty-up 책자 | [Sporty-up_panel.pdf](https://github.com/user-attachments/files/20391718/Sporty-up_panel.pdf) |
 
 
