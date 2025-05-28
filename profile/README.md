@@ -100,8 +100,7 @@ Sporty-up 애플리케이션은 다음과 같은 핵심 기능을 포함한다.
 모바일 환경은 연산 자원, 메모리 용량, 전력 소비 등의 제약이 존재하므로, 딥러닝 모델의 경량화가 필수적이다. 이에 본 시스템에서는 YOLOv11 Object Detection 모델을 Qualcomm AI Hub를 활용하여 weights와 activation을 각각 8비트 고정소수점과 INT8로 양자화(W8A8)하였고 TensorFlow Lite 형식으로 변환되어 모바일에 최적화되었다. 최적화는 Qualcomm Snapdragon 8 Elite 기반 디바이스(Samsung Galaxy S25)를 기준으로 수행되었으며 최적화 전후의 성능 비교 결과는 다음과 같다.
 
 <br/>
-
-<img width="560" src="https://github.com/user-attachments/assets/47d5328c-be84-496e-9d8e-1ce9393e604c"/> 
+<img width="560" src="https://github.com/user-attachments/assets/927d2dc9-d75a-4077-91c0-bdccab8ff333"/> 
 <br>
 
 <br/><br/>
